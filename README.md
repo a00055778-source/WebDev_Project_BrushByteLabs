@@ -1,2 +1,3 @@
 # WebDev_Project_BrushByteLabs
 Website for hair styling!
+This website will be easily accessible for all people with features such as voice over, magnifying glass, simple structure. It will have fun colourful details and design which will not have an affect on its simplicity to read, it will be user friendly with easy navigation. This website will include a gallery and a page about the hairdressing salon and the team who works there, it will have tips and tricks, that the hair salon uses as well and the products with recommendations for your hair type. There will also be a page about how to find out what hair type you have and how to take care of it! 
