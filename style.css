@@ -1,0 +1,20 @@
+h1 {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: lighter;
+  color: rgb(243, 199, 5);
+  background-color:rgba(245, 210, 249, 0.486);
+}
+
+h2 {
+  font-family:Papyrus, fantasy;
+  color: rgb(98, 7, 151);
+  background-color:rgba(253, 252, 208, 0.904);
+}
+
+a:link{
+  color: purple;
+}
+
+a:hover{
+  color: rgb(255, 241, 88);
+}
