@@ -1,0 +1,21 @@
+h1 {
+  font-family: Brush Script MT, cursive;
+  font-weight: lighter;
+  color: white;
+}
+
+#bgimage{
+  color: white;
+  background-image: url("regencygirl123-leaves-6729056_1920.jpg");
+}
+
+h2 {
+  font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+  color: rgb(151, 7, 120);
+  background-color:rgba(253, 252, 208, 0.66);
+}
+
+p {
+    font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+    color: rgb(151, 7, 120);
+}
