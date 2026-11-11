@@ -8,7 +8,7 @@ h1 {
 
 #bgimage{
   color: white;
-  background-image: url("regencygirl123-leaves-6729056_1920.jpg");
+  background-image: url("Rapunzel.jpg");
 }
 
 h2 {
@@ -16,7 +16,13 @@ h2 {
   font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
   color: rgb(151, 7, 120);
   background-color:rgba(253, 252, 208, 0.66);
+  width: 80%;
+  height: 40px;
   padding: 15px;
+  margin: 20px auto;
+  border: 3px solid purple;
+  text-align: center;
+  border-radius: 10px
 }
 
 p {
