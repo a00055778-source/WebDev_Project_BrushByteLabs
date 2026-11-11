@@ -9,6 +9,8 @@ h1 {
 #bgimage{
   color: white;
   background-image: url("Rapunzel.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 h2 {
@@ -17,7 +19,6 @@ h2 {
   color: rgb(151, 7, 120);
   background-color:rgba(253, 252, 208, 0.66);
   width: 80%;
-  height: 40px;
   padding: 15px;
   margin: 20px auto;
   border: 3px solid purple;
