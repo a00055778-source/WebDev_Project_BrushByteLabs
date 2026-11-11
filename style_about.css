@@ -7,7 +7,7 @@ h1 {
 }
 
 #bgimage {
-    color: white;
+    color: rgb(35, 3, 43);
     background-image: url("Rapunzel.jpg");
     background-size: contain;
     background-repeat: no-repeat;
