@@ -6,11 +6,14 @@ h1 {
   color: white;
 }
 
-#bgimage{
-  color: white;
-  background-image: url("Rapunzel.jpg");
-  background-size: cover;
-  background-position: center;
+#bgimage {
+    color: white;
+    background-image: url("Rapunzel.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
 }
 
 h2 {
