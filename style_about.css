@@ -1,11 +1,14 @@
 
+
+/* Main heading */
 h1 {
-  font-size: 60px;
-  font-family: Brush Script MT, cursive;
-  font-weight: lighter;
-  color: rgb(35, 3, 43);
+    font-size: 60px;
+    font-family: "Brush Script MT", cursive;
+    font-weight: lighter;
+    color: rgb(35, 3, 43);
 }
 
+/* About heading background image */
 #bgimage {
     color: rgb(35, 3, 43);
     background-image: url("Rapunzel.jpg");
@@ -16,48 +19,71 @@ h1 {
     text-align: center;
 }
 
+/* Subheadings */
 h2 {
-  font-size: 32px;
-  font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
-  color: rgb(151, 7, 120);
-  background-color:rgba(253, 252, 208, 0.66);
-  width: 80%;
-  padding: 15px;
-  margin: 20px auto;
-  border: 3px solid purple;
-  text-align: center;
-  border-radius: 10px
+    font-size: 32px;
+    font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+    color: rgb(151, 7, 120);
+    background-color: rgba(253, 252, 208, 0.66);
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+    border: 3px solid purple;
+    text-align: center;
+    border-radius: 10px;
 }
 
+/* Paragraphs */
 p {
     font-size: 24px;
-    font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+    font-family: Perpetua, Baskerville, "Big Caslon",
+        "Palatino Linotype", Palatino, serif;
     color: rgb(151, 7, 120);
     margin: 20px auto;
     line-height: 1.8;
     max-width: 800px;
 }
 
+/* Body */
 body {
     font-size: 22px;
-
 }
 
-a:link{
-  color: purple;
+/* Links */
+a:link {
+    color: purple;
 }
 
-a:hover{
-  color: rgb(255, 241, 88);
+/* Flexbox navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
 }
 
+/* Navigation links */
 nav a {
     font-size: 24px;
-    padding: 10px;
+    padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
-  }
+    color: purple;
+    background-color: rgba(253, 252, 208, 0.85);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
 
+/* Hover effect */
+nav a:hover {
+    color: rgb(255, 241, 88);
+    background-color: purple;
+    transform: translateY(-3px);
+}
+
+/* Main container */
 .container {
     width: 85%;
     max-width: 1100px;
@@ -66,8 +92,10 @@ nav a {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(98, 7, 151, 0.2);
+    box-sizing: border-box;
 }
 
+/* Sections */
 .section {
     width: 85%;
     margin: 30px auto;
@@ -75,4 +103,76 @@ nav a {
     background-color: rgba(245, 210, 249, 0.3);
     border-radius: 15px;
     text-align: center;
+    box-sizing: border-box;
+}
+
+/* Tablet screens: 600px to 1024px */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 22px;
+        max-width: 90%;
+    }
+
+    #bgimage {
+        padding: 30px;
+        background-size: contain;
+    }
+}
+
+/* Mobile screens: below 600px */
+@media screen and (max-width: 599px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+        margin: 15px auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        width: 95%;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 15px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    #bgimage {
+        padding: 20px 10px;
+        background-size: contain;
+    }
+
+    .section {
+        width: 95%;
+        padding: 10px;
+    }
 }
